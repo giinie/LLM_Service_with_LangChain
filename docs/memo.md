@@ -67,4 +67,5 @@
 ### LLM 활용 방법
 
 1. 파인튜닝(Fine-Tuning)
+   - 전이 학습(Transfer Learning)
 2. RAG
