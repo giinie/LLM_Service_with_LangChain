@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.8"
 dependencies = [
+    "gensim>=4.3.3",
     "huggingface-hub>=0.33.4",
     "langchain>=0.0.27",
     "openai>=1.97.0",
