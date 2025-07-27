@@ -188,17 +188,21 @@
 ### 3. 랭체인 주요 모듈
 
 1. 모델 I/O(Model I/O): 언어 모델과 상호 작용을 위한 모듈
-  - 프롬프트
-  - 언어 모델: LLM API 호출
-  - 출력 파서(Output Parsers)
-- 데이터 연결
-  - 문서 가져오기
-  - 문서 변환
-  - 문서 임베딩
-  - 벡터 저장소
-  - 검색기
-- 체인
-- 메모리
-- 에이전트/툴
+   - 프롬프트
+   - 언어 모델: LLM API 호출
+   - 출력 파서(Output Parsers)
+
+2. 데이터 연결: 일반적인 데이터 분석 환경에서의 ETL(Extract, Transform, Load)에 해당
+   - 문서 가져오기(document loaders): 다양한 출처에서 문서를 가져오는 것
+   - 문서 변환(document transformers): chunk 분할, 결합, 필터링 등
+   - 문서 임베딩(embedding model): vector 변환
+   - 벡터 저장소(vector stores): 벡터 저장/관리/검색
+   - 검색기(retrievers): 언어 모델과 결합할 관련 문서를 가져오기 위한 것으로 정보 검색을 위한 역할
+
+3. 체인
+
+4. 메모리
+
+5. 에이전트/툴
 
 ---
