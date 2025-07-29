@@ -16,4 +16,5 @@ prompt = PromptTemplate(
 # chain = LLMChain(llm=llm, prompt=prompt) # 프롬프트와 모델을 체인으로 연결 # Deprecated since 0.1.17
 chain = prompt | llm | StrOutputParser()
 
-chain.invoke("대한민국")
+response = chain.invoke("대한민국")
+print(response)
